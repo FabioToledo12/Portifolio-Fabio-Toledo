@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Fabio Toledo</title>
+</head>
+
+<body>
+    <div class="caixa-principal">
+        <nav>
+            <h2 class="portfolio">Port<span>folio</span></h2>
+            <ul>
+                <li class="nav-li">Home</li>
+                <a href="#sobre">
+                    <li class="nav-li">Sobre</li>
+                </a>
+                <a href="#projetos">
+                    <li class="nav-li">Projetos</li>
+                </a>
+                <a href="#fale-comigo">
+                    <li class="nav-li">Fale Comigo</li>
+                </a>
+            </ul>
+        </nav>
+
+        <img class="img-home" src="./img/fundo portfolio 1.png" alt="logo-programacao">
+
+        <div class="meu-nome">
+            <h1>Fabio <span>Toledo</span></h1>
+            <h3>Programador Front End</h3>
+        </div>
+
+        <section id="sobre" class="secao-sobre">
+            <img class="img-fabio-sobre" src="./img/Minha Foto 2 .jpg" alt="foto-fabio-toledo">
+            <div class="sobre-mim">
+                <h2>Sobre Mim</h2>
+                <p>Eu sou um Programador Front End, tenho experiência e conhecimento criando aplicações com HTML, CSS,
+                    Javascript, React, Node</p>
+                <a target="_blank"
+                    href="https://api.whatsapp.com/send?phone=551197709-3676&text=Olá podemos conversar%20">Entre em
+                    Contato</a>
+            </div>
+        </section>
+
+        <section id="projetos" class="secao-projetos">
+            <div class="meus-projetos">
+                <h2>Meus Projetos - Tecnologias Utilizadas</h2>
+                <ul>
+                    <li class="tecnologia-li">
+                        <img class="img-tecnologia" src="./img/html5-1.png" alt="logo-html">
+                    </li>
+                    <li class="tecnologia-li">
+                        <img class="img-tecnologia" src="./img/css-1.png" alt="logo-css">
+                    </li class="tecnologia-li">
+                    <li class="tecnologia-li">
+                        <img class="img-tecnologia" src="./img/js.png" alt="logo-js">
+                    </li>
+                    <li class="tecnologia-li">
+                        <img class="img-tecnologia" src="./img/node-js-2.png" alt="logo-node">
+                    </li>
+                    <li class="tecnologia-li">
+                        <img class="img-tecnologia" src="./img/react.png" alt="logo-react">
+                    </li>
+                    <li class="tecnologia-li">
+                        <img class="img-tecnologia" src="./img/cSharp.png" alt="logo-cSharp">
+                    </li>
+                    <li class="tecnologia-li">
+                        <img class="img-tecnologia" src="./img/sql-server.png" alt="logo-html">
+                    </li>
+                    <li class="tecnologia-li">
+                        <img class="img-tecnologia" src="./img/MySQL.png" alt="logo-html">
+                    </li>
+                    <li class="tecnologia-li">
+                        <img class="img-tecnologia" src="./img/oracle.png" alt="logo-html">
+                    </li>
+                </ul>
+
+                <div class="meus-projetos-git">
+                    <br>
+                    <h2>Meus Projetos - <a target="_blank" href="https://github.com/FabioToledo12"> GitHub </a> </h2>
+                    <br>
+
+                    <div class="card-projetos" >
+                        <div class="card">
+                            <img src="" alt=""> Imagem
+                            <h5>Nome Projeto 01</h5>
+                            <p>paragrafo qualquer</p>
+                            <a href="">link projeto</a>
+                        </div>
+
+                        <div class="card">
+                            <img src="" alt=""> Imagem
+                            <h5>Nome Projeto 02</h5>
+                            <p>paragrafo qualquer</p>
+                            <a href="">link projeto</a>
+                        </div>
+
+                        <div class="card">
+                            <img src="" alt=""> Imagem
+                            <h5>Nome Projeto 03</h5>
+                            <p>paragrafo qualquer</p>
+                            <a href="">link projeto</a>
+                        </div>
+
+                        <div class="card">
+                            <img src="" alt=""> Imagem
+                            <h5>Nome Projeto 03</h5>
+                            <p>paragrafo qualquer</p>
+                            <a href="">link projeto</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="fale-comigo" class="secao-fale-comigo">
+            <img class="img-fabio" src="./img/Minha Foto 2 .jpg" alt="foto-fabio-toledo">
+            <div class="caixa-fale-comigo">
+                <h2>Fale Comigo</h2>
+                <div class="contato-social">
+                    <a href="https://www.linkedin.com/in/fabio-toledo-25755b59/" target="_blank">
+                        <img src="./img/linkedin.png" alt="contato-linkedin">
+                    </a>
+                    <button class="btn-email" onclick="cliqueiNoBotao()">
+                        <img src="./img/email.png" alt="contato-email">
+                    </button>
+                    <a href="https://api.whatsapp.com/send?phone=551197709-3676&text=Olá podemos conversar%20"
+                        target="_blank">
+                        <img src="./img/whatsapp.png" alt="contato-whatsapp">
+                    </a>
+                    <a href="https://www.instagram.com/binhojfh/" target="_blank">
+                        <img src="./img/instagram.png" alt="contato-instagram">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <form class="form-fale-comigo" action="https://formsubmit.co/fvtoledojf@gmail.com" method="POST">
+            <h2>Fale Comigo</h2>
+            <input placeholder="Seu nome" type="text" name="nome">
+            <input placeholder="Seu telefone" type="tel" name="telefone">
+            <textarea placeholder="Me fale em que posso te ajudar" name="info"></textarea>
+            <button class="btn-form" onclick="sumirFormulario()">Enviar</button>
+        </form>
+
+
+    </div>
+</body>
+<script>
+    let formulario = document.querySelector(".caixa-fale-comigo")
+    let formFaleComigo = document.querySelector(".form-fale-comigo")
+
+    function cliqueiNoBotao() {
+        /*formulario.style.left = "700px"*/
+        /*formulario.style.visibility = "visible"*/
+        formulario.style.visibility = "hidden"
+        formFaleComigo.style.visibility = "visible"
+        formFaleComigo.style.left = "750px"
+        /*formFaleComigo.style.top = "-525px"*/
+
+    }
+
+    function sumirFormulario() {
+        /*formulario.style.zIndex = 1;*/
+        formFaleComigo.style.visibility = "visible"
+        formulario.style.visibility = "hidden"
+        window.location.href = "/.index.html";
+    }
+
+</script>
+
+</html>
